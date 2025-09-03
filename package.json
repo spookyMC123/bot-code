@@ -1,0 +1,17 @@
+{
+  "name": "ptero-user-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "register": "node ./src/registerCommands.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  }
+}
